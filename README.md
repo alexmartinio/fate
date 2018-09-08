@@ -15,4 +15,4 @@
 
 ### Start it!
 - In VS Code hit F5
-- Otherwise, run `node app.js`
+- Otherwise, run `start http://localhost:3000 & set DEBUG=fate:* & npm start`
