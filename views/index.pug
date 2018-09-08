@@ -1,5 +1,15 @@
+// see https://pugjs.org/language/attributes.html
+
 extends layout
 
 block content
   h1= title
   p Welcome to #{title}
+  
+  a(href="http://www.google.com") Googles
+  
+  input(
+    type='checkbox'
+    name='agreement'
+    checked
+  )
